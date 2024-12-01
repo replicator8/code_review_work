@@ -18,6 +18,6 @@ public class Calculator {
     }
 
     public int solver() {
-        return dif(times(add(2, 3), 2), div(36, 6));
+        return times(div(dif(10, 2), 4), add(36, 6));
     }
 }
