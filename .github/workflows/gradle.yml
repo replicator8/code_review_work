@@ -34,3 +34,7 @@ jobs:
       # build & tests project
       - name: Build with Gradle
         run: ./gradlew build --no-daemon
+
+      # tests with details
+      - name: Run tests with detailed output
+        run: ./gradlew test --info
