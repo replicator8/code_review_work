@@ -7,22 +7,22 @@ class CalculatorTest {
 
     @Test
     void add() {
-        assertEquals(10, calculator.add(8, 2));
+        assertEquals(20, calculator.add(18, 2));
     }
 
     @Test
     void dif() {
-        assertEquals(10, calculator.dif(100, 90));
+        assertEquals(1, calculator.dif(10, 9));
     }
 
     @Test
     void div() {
-        assertEquals(10, calculator.div(100, 10));
+        assertEquals(10, calculator.div(1000, 100));
     }
 
     @Test
     void times() {
-        assertEquals(120, calculator.times(12, 10));
+        assertEquals(1200, calculator.times(120, 10));
     }
 
     @Test
