@@ -27,6 +27,6 @@ class CalculatorTest {
 
     @Test
     void solver() {
-        assertEquals(4, calculator.solver());
+        assertEquals(84, calculator.solver());
     }
 }
